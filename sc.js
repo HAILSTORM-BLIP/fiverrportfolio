@@ -5,7 +5,9 @@ var R=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 /* nav scroll */
 var nav=document.getElementById('navbar');
 window.addEventListener('scroll',function(){
-  nav.style.borderBottomColor=window.scrollY>40?'#d4d4d4':'transparent';
+  nav.style.borderBottomColor=window.scrollY>40?'var(--border)':'transparent';
+  nav.style.borderBottomWidth='1px';
+  nav.style.borderBottomStyle='solid';
 },{passive:true});
 
 /* mobile menu */
