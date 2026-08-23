@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Jishan.dev — Full-Stack Web Developer</title>
-<meta name="description" content="Jishan Tamboli — Full-stack web developer building modern web applications, SaaS products, and business systems." />
-<meta name="theme-color" content="#f4f3f0" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='3' fill='%23111'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='34' font-weight='700' fill='%23f4f3f0' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E" />
+<title>Jishan.dev â€” Full-Stack Web Developer</title>
+<meta name="description" content="Jishan Tamboli â€” Full-stack developer building modern web applications, SaaS products and business systems with clean design and reliable engineering." />
+<meta name="theme-color" content="#f7f7f5" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230a0a0a'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='32' font-weight='800' fill='%23f7f7f5' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -14,211 +14,283 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<a class="skip-link" href="#home">Skip to content</a>
+<a class="skip-link" href="#top">Skip to content</a>
 
-<header class="navbar" id="navbar"><nav class="container nav-inner">
-<a class="brand" href="#home">JISHAN.DEV</a>
-<div class="nav-right">
+<header class="navbar">
+<nav class="container nav-inner" aria-label="Primary">
+<a class="brand" href="#top">JISHAN.DEV</a>
 <ul class="nav-links" id="nav-links">
-<li><a href="#home" class="active">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#work">Work</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#experience">Experience</a></li>
 <li><a href="#contact">Contact</a></li>
 </ul>
-<div class="nav-cta"><a class="btn" href="#contact">Let's talk</a></div>
+<a class="btn-outline-w" href="#contact">Let's talk <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 <button class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
 <svg class="hamburger" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
 <svg class="x" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
 </button>
-</div>
-</nav></header>
+</nav>
+</header>
 
 <div class="mobile-menu" id="mobile-menu">
-<a href="#home">Home</a><a href="#about">About</a><a href="#work">Work</a>
-<a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+<a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
 </div>
 
-<main id="main">
+<main id="top">
 
-<!-- ═══ HERO ═══ -->
-<section class="hero" id="home" aria-labelledby="hero-title"><div class="container">
-<div class="hero-top rv">
-<span class="hero-intro">Available for freelance work</span>
-<span class="hero-date">2026</span>
-</div>
-<div class="hero-main">
-<div class="hero-intro-block rv rv-d1">
+<!-- â•â•â• HERO â€” diagonal monochrome composition â•â•â• -->
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero-grid">
+<div class="hero-intro-block rv">
 <p class="hero-label">Hello, I'm Jishan.</p>
-<h1 id="hero-title"><span class="line">I build</span><span class="line">digital products</span><span class="line">that make an impact.</span></h1>
+<h1 id="hero-title"><span>I build</span><span>digital products</span><span>that make impact.</span></h1>
 </div>
-<div class="hero-lower rv rv-d2">
-<p class="hero-sub">Full-Stack Developer building modern web applications, SaaS products and business systems with clean design and reliable engineering.</p>
+<div class="hero-lower rv rv-d1">
+<p class="hero-desc">Full-Stack Developer building modern web applications, SaaS products and business systems with clean design and reliable engineering.</p>
 <div class="hero-ctas">
-<a class="btn btn-dark" href="#work">View my work <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-<a class="btn btn-text" href="#contact">Let's talk <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<a class="btn-solid" href="#work">View my work <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<a class="btn-line" href="#contact">Let's talk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </div>
 <div class="hero-social">
-<a href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.71.115 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0022 12c0-5.52-4.48-10-10-10z"/></svg> GitHub</a>
-<a href="https://www.linkedin.com/in/jishan-tamboli-ba086b322/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="4"/><path d="M8 11v5M8 8v.01M12 16v-5c0-1 1-2 2-2s2 1 2 2v5"/></svg> LinkedIn</a>
-<a href="mailto:jishantamboli567@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 7l8.5 5.5a2 2 0 002 0L21 7"/></svg> Email</a>
+<a href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.71.115 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0022 12c0-5.52-4.48-10-10-10z"/></svg></a>
+<a href="https://www.linkedin.com/in/jishan-tamboli-ba086b322/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5c0-1 1-2 2-2s2 1 2 2v5"/></svg></a>
+<a href="mailto:jishantamboli567@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l8.5 5.5a2 2 0 002 0L21 7"/></svg></a>
 </div>
 </div>
-<div class="hero-portrait rv rv-d2">
-<div class="portrait-wrap">
-<img src="assets/jishan-portrait.jpg" alt="Jishan Tamboli, full-stack web developer" width="800" height="1067" decoding="async" fetchpriority="high" />
-<div class="portrait-border" aria-hidden="true"></div>
-</div>
-<div class="portrait-caption"><span>Full-Stack Developer</span><span>Jishan.dev</span></div>
+<div class="hero-portrait rv rv-d1">
+<figure class="portrait-frame">
+<img src="assets/jishan-portrait.jpg" alt="Portrait of Jishan Tamboli, full-stack web developer" width="580" height="1000" fetchpriority="high" />
+</figure>
 </div>
 </div>
-</div></section>
+<div class="hero-meta" aria-hidden="true"><i></i><span>Available for freelance work</span><i></i><span>2026</span></div>
+</section>
 
-<!-- ═══ ABOUT ═══ -->
-<section id="about"><div class="container">
-<div class="section-head rv"><span class="section-num">01</span><h2 class="section-title">About</h2></div>
-<div class="about-grid">
-<div class="about-statement rv">I build useful software with a strong focus on simplicity, performance and thoughtful interfaces.</div>
+<!-- â•â•â• 01 WHAT I DO â•â•â• -->
+<section class="section" id="about" aria-labelledby="wid-title">
+<div class="container">
+<div class="sec-head rv">
 <div>
-<div class="about-body rv rv-d1">
-<p>I'm <strong>Jishan Tamboli</strong>, a full-stack developer focused on building digital products, business applications and modern web experiences. I work primarily with <strong>React, Next.js, TypeScript and Node.js</strong>.</p>
-<p>Recent work includes a live e-commerce storefront, business sites, and automation tools. I'm pursuing a diploma in IoT &amp; Computer Engineering.</p>
+<div class="sec-id"><b>01</b><i></i></div>
+<h2 class="sec-title" id="wid-title">What I do</h2>
 </div>
-<div class="about-cols rv rv-d2">
-<div class="about-col"><p class="about-col-label">Focus</p><ul><li>Web Applications</li><li>SaaS Platforms</li><li>Business Systems</li><li>AI &amp; Automation</li></ul></div>
-<div class="about-col"><p class="about-col-label">Approach</p><ul><li>Clean interfaces</li><li>Reliable engineering</li><li>Thoughtful UX</li><li>Continuous learning</li></ul></div>
+<p class="sec-side">I help founders, businesses and teams ship reliable digital products â€” from first wireframe to deployed production system.</p>
+</div>
+<div class="services rv">
+<div class="service">
+<div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14.5 14.5 0 010 18M12 3a14.5 14.5 0 000 18"/></svg></div>
+<h3>Web Development</h3>
+<p>Modern, responsive websites and web applications built with performance and experience in mind.</p>
+</div>
+<div class="service">
+<div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5zM3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg></div>
+<h3>SaaS Products</h3>
+<p>Scalable SaaS platforms with clean UI, robust architecture and secure implementations.</p>
+</div>
+<div class="service">
+<div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/><path d="M4 11.5v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/></svg></div>
+<h3>Business Systems</h3>
+<p>Custom ERP, CRM and dashboard solutions to streamline and grow business operations.</p>
+</div>
+<div class="service">
+<div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4.5 13.5H11L10 22l8.5-11.5H12L13 2z"/></svg></div>
+<h3>AI &amp; Automation</h3>
+<p>AI integrations and automated workflows that save time and increase efficiency.</p>
 </div>
 </div>
 </div>
-</div></section>
+</section>
 
-<!-- ═══ CAPABILITIES ═══ -->
-<section><div class="container">
-<div class="section-head rv"><span class="section-num">02</span><h2 class="section-title">What I Build</h2></div>
-<div class="cap-grid rv">
-<div class="cap-item"><div class="cap-num">01</div><h3 class="cap-title">Web Development</h3><p class="cap-desc">Modern responsive websites and web applications built with current frameworks and best practices.</p></div>
-<div class="cap-item"><div class="cap-num">02</div><h3 class="cap-title">SaaS</h3><p class="cap-desc">Scalable product interfaces, dashboards and business platforms for growing companies.</p></div>
-<div class="cap-item"><div class="cap-num">03</div><h3 class="cap-title">Business Systems</h3><p class="cap-desc">CRM, ERP, dashboards and internal tools that streamline operations.</p></div>
-<div class="cap-item"><div class="cap-num">04</div><h3 class="cap-title">AI &amp; Automation</h3><p class="cap-desc">AI integrations, API workflows and automated business processes.</p></div>
+<!-- â•â•â• 02 SELECTED WORK â•â•â• -->
+<section class="section" id="work" aria-labelledby="work-title">
+<div class="container">
+<div class="sec-head rv">
+<div>
+<div class="sec-id"><b>02</b><i></i></div>
+<h2 class="sec-title" id="work-title">Selected work</h2>
 </div>
-</div></section>
+<a class="sec-link" href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer">View all projects <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div>
+<div class="work-grid">
 
-<!-- ═══ PROJECTS ═══ -->
-<section id="work"><div class="container">
-<div class="section-head rv"><span class="section-num">03</span><h2 class="section-title">Selected Work</h2></div>
-<div class="projects-grid">
+<article class="project rv">
+<a class="proj-shot" href="https://cozy-loops-eight.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Open Cozy Loops live site">
+<div class="shot" role="img" aria-label="Cozy Loops storefront interface preview">
+<div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">cozy-loops-eight.vercel.app</span></div>
+<div class="shot-body"><div class="g-hero"></div><div class="g-row"><div class="g-cell"></div><div class="g-cell"></div><div class="g-cell"></div></div></div>
+</div>
+</a>
+<div class="project-meta"><b>01</b><h3>Cozy Loops â€” E-Commerce Store</h3></div>
+<p>Modern online store for a handmade accessories brand with product catalog and WhatsApp / Instagram checkout handoff.</p>
+<div class="proj-foot">
+<span class="proj-tags">Next.js Â· React Â· TypeScript Â· Tailwind</span>
+<a class="proj-view" href="https://cozy-loops-eight.vercel.app" target="_blank" rel="noopener noreferrer">View project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+</div>
+</article>
 
-<div class="proj-row layout-a rv">
-<div class="proj-visual"><div class="mockup" role="img" aria-label="Cozy Loops storefront interface preview">
-<div class="mock-bar"><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-url">cozy-loops-eight.vercel.app</span></div>
-<div class="mock-body"><div class="m-hero"></div><div class="m-row"><div class="m-cell"></div><div class="m-cell"></div><div class="m-cell"></div></div></div>
-</div></div>
-<div class="proj-info">
-<div class="proj-num">01 / Cozy Loops</div>
-<h3 class="proj-title">E-Commerce Storefront</h3>
-<p class="proj-desc">A complete online storefront for a handmade accessories brand with product catalog, cart, and WhatsApp / Instagram checkout handoff.</p>
-<div class="proj-stack"><span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span></div>
-<div class="proj-links"><a class="proj-link" href="https://cozy-loops-eight.vercel.app" target="_blank" rel="noopener noreferrer">Live demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a><a class="proj-link" href="https://github.com/HAILSTORM-BLIP/cozy-loops" target="_blank" rel="noopener noreferrer">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a></div>
+<article class="project rv">
+<a class="proj-shot" href="https://hailstorm-blip.github.io/nexora-super-todo-/" target="_blank" rel="noopener noreferrer" aria-label="Open Nexora Super Todo live app">
+<div class="shot" role="img" aria-label="Nexora Super Todo interface preview">
+<div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">nexora-super-todo</span></div>
+<div class="shot-body"><div class="g-input">+ Add a task</div><div class="g-line done"><i></i><b></b></div><div class="g-line"><i></i><b></b></div><div class="g-line"><i></i><b style="width:60%"></b></div></div>
 </div>
+</a>
+<div class="project-meta"><b>02</b><h3>Nexora Super Todo â€” Web App</h3></div>
+<p>Fast task-manager with a clean interface designed around quick capture and satisfying completion.</p>
+<div class="proj-foot">
+<span class="proj-tags">JavaScript Â· HTML Â· CSS</span>
+<a class="proj-view" href="https://hailstorm-blip.github.io/nexora-super-todo-/" target="_blank" rel="noopener noreferrer">View project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
 </div>
+</article>
 
-<div class="proj-row layout-b rv">
-<div class="proj-info">
-<div class="proj-num">02 / Nexora Super Todo</div>
-<h3 class="proj-title">Task Manager Web App</h3>
-<p class="proj-desc">A fast task-manager built with modern JavaScript and a clean interface designed around quick capture and satisfying completion.</p>
-<div class="proj-stack"><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
-<div class="proj-links"><a class="proj-link" href="https://hailstorm-blip.github.io/nexora-super-todo-/" target="_blank" rel="noopener noreferrer">Live demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a><a class="proj-link" href="https://github.com/HAILSTORM-BLIP/nexora-super-todo-" target="_blank" rel="noopener noreferrer">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a></div>
+<article class="project rv">
+<a class="proj-shot" href="https://jishan-dev-portfolio.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Open Jishan.dev portfolio">
+<div class="shot" role="img" aria-label="Jishan.dev portfolio interface preview">
+<div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">jishan.dev</span></div>
+<div class="shot-body"><div class="g-split"><div class="g-nav"><i style="width:34px"></i><i></i><i></i><i></i></div><div class="g-hero-s"></div></div></div>
 </div>
-<div class="proj-visual"><div class="mockup" role="img" aria-label="Nexora Super Todo interface preview">
-<div class="mock-bar"><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-url">nexora-super-todo</span></div>
-<div class="mock-body"><div class="m-input">+ Add a task</div><div class="m-line done"><i></i><b></b></div><div class="m-line"><i></i><b></b></div><div class="m-line"><i></i><b style="width:62%"></b></div></div>
-</div></div>
+</a>
+<div class="project-meta"><b>03</b><h3>Jishan.dev â€” Portfolio Site</h3></div>
+<p>The site you're browsing â€” clean monochrome editorial design built with vanilla HTML, CSS and JavaScript.</p>
+<div class="proj-foot">
+<span class="proj-tags">HTML Â· CSS Â· JavaScript</span>
+<a class="proj-view" href="https://github.com/HAILSTORM-BLIP/fiverrportfolio" target="_blank" rel="noopener noreferrer">View project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
 </div>
+</article>
 
-<div class="proj-row layout-c rv">
-<div class="proj-visual"><div class="mockup" role="img" aria-label="Jishan.dev portfolio interface preview">
-<div class="mock-bar"><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-url">jishan.dev</span></div>
-<div class="mock-body"><div class="m-row" style="flex:0 0 26px;min-height:26px"><div class="m-cell" style="max-width:90px"></div><div class="m-cell"></div><div class="m-cell" style="max-width:60px"></div></div><div class="m-hero" style="height:52%"></div></div>
-</div></div>
-<div class="proj-info">
-<div class="proj-meta">
-<div class="proj-num">03 / Jishan.dev</div>
-<h3 class="proj-title">Developer Portfolio</h3>
-<p class="proj-desc">The site you're browsing — a clean, minimal portfolio built with vanilla HTML, CSS, and JavaScript. No frameworks.</p>
-<div class="proj-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<article class="project rv">
+<a class="proj-shot" href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer" aria-label="Browse all repositories on GitHub">
+<div class="shot" role="img" aria-label="GitHub repository collection placeholder graphic">
+<div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">github.com/HAILSTORM-BLIP</span></div>
+<div class="shot-body"><div class="g-row" style="flex-wrap:wrap"><div class="g-cell" style="min-width:45%"></div><div class="g-cell" style="min-width:45%"></div><div class="g-cell" style="min-width:45%"></div><div class="g-cell" style="min-width:45%"></div></div></div>
 </div>
-<div class="proj-links"><a class="proj-link" href="https://github.com/HAILSTORM-BLIP/fiverrportfolio" target="_blank" rel="noopener noreferrer">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a></div>
+</a>
+<div class="project-meta"><b>04</b><h3>Experiments &amp; WIP Builds</h3></div>
+<p>Ongoing experiments, automation tools and work-in-progress projects live on GitHub.</p>
+<div class="proj-foot">
+<span class="proj-tags">Assorted</span>
+<a class="proj-view" href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer">Browse GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
 </div>
-</div>
-
-<div class="archive-row rv">
-<p>More experiments and work-in-progress builds live on GitHub.</p>
-<a href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer">View archive <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</div>
+</article>
 
 </div>
-</div></section>
+</div>
+</section>
 
-<!-- ═══ SKILLS ═══ -->
-<section id="skills"><div class="container">
-<div class="section-head rv"><span class="section-num">04</span><h2 class="section-title">Skills</h2></div>
-<div class="skills-grid rv">
-<div class="skill-group"><h4>Frontend</h4><ul class="skill-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Tailwind CSS</li></ul></div>
-<div class="skill-group"><h4>Backend</h4><ul class="skill-list"><li>Node.js</li><li>REST APIs</li><li>Databases</li><li>Authentication</li></ul></div>
-<div class="skill-group"><h4>AI &amp; Automation</h4><ul class="skill-list"><li>AI APIs</li><li>n8n</li><li>Workflow automation</li></ul></div>
-<div class="skill-group"><h4>Tools &amp; Others</h4><ul class="skill-list"><li>Git</li><li>GitHub</li><li>VS Code</li><li>Figma</li><li>Vercel</li></ul></div>
+<!-- â•â•â• 03 SKILLS & EXPERIENCE â•â•â• -->
+<section class="section" id="skills" aria-labelledby="skills-title">
+<div class="container">
+<div class="sec-head rv">
+<div>
+<div class="sec-id"><b>03</b><i></i></div>
+<h2 class="sec-title" id="skills-title">Skills &amp;<br>Experience</h2>
 </div>
-</div></section>
+</div>
+<div class="cols-4 rv">
+<div class="col">
+<h4>Frontend</h4>
+<ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Tailwind CSS</li></ul>
+</div>
+<div class="col">
+<h4>Backend</h4>
+<ul><li>Node.js</li><li>REST APIs</li><li>Databases</li><li>Authentication</li><li>AI APIs</li><li>n8n automation</li></ul>
+</div>
+<div class="col">
+<h4>Tools</h4>
+<ul><li>Git</li><li>GitHub</li><li>Vercel</li><li>VS Code</li><li>Figma</li><li>Docker (learning)</li></ul>
+</div>
+<div class="col" id="experience">
+<h4>Experience</h4>
+<div class="exp-block">
+<b>2026 â€” Present</b>
+<strong>Independent Developer</strong>
+<span>Building web applications, business systems and AI automation projects.</span>
+</div>
+<div class="exp-block">
+<b>2025 â€” 2026</b>
+<strong>Freelance Developer</strong>
+<span>Client websites, portfolios and business web applications.</span>
+</div>
+<div class="exp-block">
+<b>Present</b>
+<strong>IoT &amp; Computer Engineering</strong>
+<span>Diploma student â€” systems thinking and software fundamentals.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-<!-- ═══ EXPERIENCE ═══ -->
-<section id="experience"><div class="container">
-<div class="section-head rv"><span class="section-num">05</span><h2 class="section-title">Experience</h2></div>
-<div class="exp-grid rv">
-<div class="exp-item"><div class="exp-year">2026</div><div class="exp-content"><h3>Founder / Developer</h3><p class="exp-org">Cozy Loops — Independent Project</p><p>Full-stack e-commerce experience built end-to-end with Next.js 16, TypeScript and Vercel.</p><div class="exp-tags"><span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind</span></div></div></div>
-<div class="exp-item"><div class="exp-year">2026</div><div class="exp-content"><h3>Developer</h3><p class="exp-org">Nexora Super Todo — Independent Project</p><p>Fast, responsive task-management app focused on clean UI.</p><div class="exp-tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div></div></div>
-<div class="exp-item"><div class="exp-year">2025</div><div class="exp-content"><h3>Freelance Web Developer</h3><p class="exp-org">Client projects &amp; business websites</p><p>Building client websites, portfolios and business web applications. Full project lifecycle.</p><div class="exp-tags"><span>Next.js</span><span>React</span><span>Tailwind</span><span>Vercel</span></div></div></div>
-<div class="exp-item"><div class="exp-year">Now</div><div class="exp-content"><h3>Diploma Student</h3><p class="exp-org">IoT &amp; Computer Engineering</p><p>Systems thinking, electronics and software development.</p><div class="exp-tags"><span>IoT</span><span>Engineering</span></div></div></div>
-</div>
-</div></section>
-
-<!-- ═══ CONTACT ═══ -->
-<section id="contact"><div class="container">
-<div class="section-head rv"><span class="section-num">06</span><h2 class="section-title">Contact</h2></div>
-<div class="contact-grid">
-<div class="rv">
-<h2 class="contact-statement">Let's work<br>together.</h2>
-<p class="contact-desc">I'm available for freelance projects, collaborations and full-stack development work.</p>
-<div class="contact-links">
-<a href="mailto:jishantamboli567@gmail.com">jishantamboli567@gmail.com</a>
-<a href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer">GitHub</a>
-<a href="https://www.linkedin.com/in/jishan-tamboli-ba086b322/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-</div>
-</div>
+<!-- â•â•â• 04 DARK STATEMENT â•â•â• -->
+<section class="statement" aria-label="Statement">
+<div class="container section" style="padding-block:clamp(64px,6.5vw,96px)">
+<div class="sec-id rv"><b>04</b><i></i></div>
+<div class="statement-grid" style="margin-top:18px">
+<blockquote class="quote rv"><span>Clean code.</span><span>Clear design.</span><span>Real impact.</span></blockquote>
 <div class="rv rv-d1">
-<form class="contact-form" action="mailto:jishantamboli567@gmail.com" method="post" enctype="text/plain">
-<div class="form-field"><label for="name">Name</label><input type="text" id="name" name="name" required /></div>
-<div class="form-field"><label for="email">Email</label><input type="email" id="email" name="email" required /></div>
-<div class="form-field"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
-<button type="submit" class="btn btn-dark" style="width:100%;justify-content:center">Send Message <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+<p class="statement-note">Every project is an exercise in restraint â€” remove noise, keep intent, ship something people actually enjoy using.</p>
+<p class="signature">â€” Jishan</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- â•â•â• 05 CONTACT â•â•â• -->
+<section class="section" id="contact" aria-labelledby="contact-title">
+<div class="container">
+<div class="sec-id rv"><b>05</b><i></i></div>
+<div class="contact-grid" style="margin-top:26px">
+<div class="rv">
+<h2 class="contact-title" id="contact-title"><span>Let's work</span><span>together.</span></h2>
+<p class="contact-desc">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+<div class="contact-details">
+<div class="cd"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l8.5 5.5a2 2 0 002 0L21 7"/></svg><a href="mailto:jishantamboli567@gmail.com">jishantamboli567@gmail.com</a></div>
+<div class="cd"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14.5 14.5 0 010 18"/></svg><span>Remote Â· Worldwide</span></div>
+<div class="cd"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><span>Available for freelance work</span></div>
+</div>
+</div>
+<form class="form rv rv-d1" action="mailto:jishantamboli567@gmail.com" method="post" enctype="text/plain">
+<div class="form-row">
+<label class="field"><span>Name</span><input type="text" name="name" autocomplete="name" required /></label>
+<label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" required /></label>
+</div>
+<label class="field"><span>Subject</span><input type="text" name="subject" /></label>
+<label class="field"><span>Message</span><textarea name="message" required></textarea></label>
+<button type="submit" class="btn-solid">Send message <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
 </form>
 </div>
 </div>
-</div></section>
+</section>
 
 </main>
 
-<footer class="footer" role="contentinfo"><div class="container">
-<div class="footer-top">
-<div class="footer-brand"><strong>JISHAN.DEV</strong>Full-Stack Web Developer</div>
-<div class="footer-links"><h5>Navigation</h5><a href="#home">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
-<div class="footer-links"><h5>Connect</h5><a href="mailto:jishantamboli567@gmail.com">Email</a><a href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/jishan-tamboli-ba086b322/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+<!-- â•â•â• FOOTER â•â•â• -->
+<footer class="footer">
+<div class="container">
+<div class="foot-grid">
+<div class="foot-brand">
+<strong>JISHAN.DEV</strong>
+<p>Building digital products that make impact.</p>
 </div>
-<div class="footer-bottom">
-<span>&copy; 2026 Jishan Tamboli</span>
-<a href="#home">Back to top &uarr;</a>
+<nav class="foot-col" aria-label="Footer navigation">
+<h5>Navigation</h5>
+<a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+</nav>
+<div class="foot-col">
+<h5>Let's connect</h5>
+<a href="https://github.com/HAILSTORM-BLIP" target="_blank" rel="noopener noreferrer">GitHub</a>
+<a href="https://www.linkedin.com/in/jishan-tamboli-ba086b322/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a href="mailto:jishantamboli567@gmail.com">Email</a>
 </div>
-</div></footer>
+</div>
+<div class="foot-bottom">
+<span>&copy; 2026 Jishan.dev â€” All rights reserved.</span>
+<span>Designed &amp; Built with passion &#9829;</span>
+</div>
+</div>
+</footer>
 <script src="sc.js" defer></script>
-</body></html>
+</body>
+</html>
